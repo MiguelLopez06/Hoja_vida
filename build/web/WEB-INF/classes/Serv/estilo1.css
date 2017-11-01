@@ -1,0 +1,79 @@
+body {
+	background-image: url("Fondos.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;
+        
+}       
+
+
+h1,h3 {
+	font-family: "Verdana", cursive, sans-serif;
+	color: #2C7AFF;
+	text-shadow: 2px 2px 8px #888888;
+}
+
+#showing{
+  
+	max-width: 900px;
+	min-width: 360px;
+	height: 730px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:30px;
+        
+#input_table{ 
+	box-shadow: 3px 3px 5px #888888;
+}
+
+
+#input_table,th,tr { 
+	border-collapse: collapse;
+	padding: 8px;
+	margin-top: 20px;
+	
+}
+#joining{
+	
+   
+	max-width: 900px;
+	min-width: 900px;
+	height: 600px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	
+}
+
+input, select, textarea{
+	font-family: 'Oswald', sans-serif;
+}
+input[type=date]{
+	padding:5px; 
+    border:none; 
+    border-radius: 5px;	
+}
+
+
+input[type=submit]{
+	padding:5px 15px; 
+    background:#cccccc; 
+    border:0 none;
+    border-radius: 5px;
+}
+th {
+	font-family: "Verdana", cursive, sans-serif;
+	color: #2C7AFF;
+	text-shadow: 2px 2px 8px #888888;
+}
+td {
+	font-family: "Verdana", cursive, sans-serif;
+	color: #2C7AFF;
+	text-shadow: 2px 2px 8px #888888;
+}
+table{
+    border-color: dodgerblue;
+}

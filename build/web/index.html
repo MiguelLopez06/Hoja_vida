@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+   
+	<head>
+		
+		<title>Datos personales:</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="validate.js" language="JavaScript1.2"></script>
+
+	</head>
+	
+        <body>
+            
+            
+             
+            <div id="joining"><br>
+               
+                </br>
+                <br>
+                </br>
+		<h1 align= "center" > Hoja de vida. </h1>
+		
+		<h3 align= "center" > Ingrese sus datos </h3>
+		
+		<form action="datos_h" method="get" onsubmit="return validate()">
+                    
+			
+			<table align= "center" border="1" id="joiningtb">
+				<tr>
+					
+					<td> Nombres: </td>
+					<td colspan="3"> <input type="text" name="nombre" maxlength="30" id="nombre"  required/> </td>
+					
+				</tr>
+				
+                                <tr>
+					
+					<td> Apellidos: </td>
+					<td colspan="3"> <input type="text" name="apellido" maxlength="30"  size="30" id="apellido"  required/> </td>
+					
+				</tr>
+                		<tr>
+					
+					<td> Tipo de documento: </td>
+					<td colspan="3"> 
+						 <select tabindex="6" id="tipdoc" name="tipdoc">
+							<option value="Select">Seleccione una opci&oacute;n</option>
+							<option value="Tarjeta de identidad">Tarjeta de identidad</option>
+							<option value="Cedula de ciudadania">Cedula de ciudadania</option>
+							<option value="Extranjero">Extranjero</option>
+						</select>	
+					</td>
+					
+				</tr>                
+				<tr>
+					
+					<td> documento: </td>
+					<td colspan="3"> <input type="number" maxlength="30" size="30" name="id" id="id" required/> </td>
+					
+				</tr>
+				<tr>
+					
+					<td> Genero: </td>
+					<td colspan="3"> 
+						 <select tabindex="6" id="gen" name="gen">
+							<option value="Select">Seleccione una opci&oacute;n</option>
+							<option value="Masculino">Masculino</option>
+							<option value="Femenino">Femenino</option>
+							<option value="Otro">Otro</option>
+						</select>	
+					</td>
+					
+				</tr>   
+				<tr>
+					
+					<td> Fecha de nacimiento: </td>
+					<td colspan="3"> <input type="date" name="fnac" step="1" min="1950-01-01" max="2017-02-17" value="1950-01-01" id="fnac" > 
+					</td>
+					
+				<tr>
+					
+					<td> Lugar de nacimiento: </td>
+					<td colspan="3"> <input type="text" id="lugar" name="lugar">
+					</td>
+					
+				</tr>
+				
+				
+				
+				<tr>
+					
+					<td> Estado civil: </td>
+					<td colspan="3"> 
+						 <select tabindex="6" id="estadoc" name="estadoc">
+							<option value="Select">Seleccione una opci&oacute;n</option>
+							<option value="Casado(a)">Casado(a)</option>
+							<option value="Soltero(a)">Soltero(a)</option>
+							<option value="Viudo(a)">Viudo(a)</option>
+							<option value="Unión Libre">Uni&oacute;n Libre</option>
+							<option value="Viudo(a)">Viudo(a)</option>
+						</select>	
+					</td>
+					
+				</tr>
+				
+				<tr>
+					
+					<td> Ciudad: </td>
+					<td colspan="3">  <input type="text" id="ciudad" name="ciudad">		
+					</td>
+					
+				</tr>
+				
+				<tr>
+					
+					<td> Estudios: </td>
+					<td colspan="3"> 
+					   <select tabindex="7" id="estu" name="estu">
+							<option value="Select">Seleccione uno</option>
+							<option value="Primaria">Primaria</option>
+							<option value="Bachillerato">Bachillerato</option>
+							<option value="Tecnólogo">Tecnólogo</option>
+							<option value="Tecnólogo">Tecnólogo</option>
+							<option value="Pregrado">Pregrado</option>
+							<option value="Posgrado">Posgrado</option>
+							
+						</select>
+					</td>
+					
+				</tr>
+				
+				<tr>
+					
+					<td> Direcci&oacute;n: </td>
+					<td colspan="3"> <input type="text" maxlength="30" size="30" placeholder="Ejemplo: carrera-87-calle-7" name="direc" id="direc" required/> </td>
+					
+				</tr>
+				
+				<tr>
+					
+					<td> Tel&eacute;fono: </td>
+					<td colspan="3"> <input type="number" maxlength="30" size="30" placeholder="Ejemplo: 111-55-11" name="tel" id="tel" required/> </td>
+					
+				</tr>
+				
+				<tr>
+					
+					<td> Correo eletr&oacute;nico: </td>
+					<td colspan="3"> <input type="email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" maxlength="30" size="30" placeholder="Ejemplo:ejemplo@ejempllo.com" name="correo" id="correo" required/> </td>
+					
+				</tr>
+			
+				<tr>
+					<td><input align="center" type="reset" name="borrar"  value="Restaurar Campos" id="borrar">	</td>
+					<td><input align="center" type="submit" name="enviar" value="Enviar" id="borrar"></td>
+				</tr>
+
+			</table>
+		
+		</div>
+		</form>
+        </body>	
+	
+</html>
+

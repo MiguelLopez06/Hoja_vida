@@ -1,0 +1,17 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Persona;
+
+/**
+ *
+ * @author Jose
+ */
+public abstract class APersona {
+    public String nombre,apellido, fnac, lugar_n, estadoc;
+    public String ciudad, estudios, direc,tel,email,gen,tipdoc, id;
+    public APersona(){}
+    
+}
